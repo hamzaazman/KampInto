@@ -4,7 +4,7 @@ using System.Text;
 
 namespace OOP1
 {
-    class Product
+    public class Product
     {
         public int Id { get; set; }
         public int CategoryId { get; set; }
