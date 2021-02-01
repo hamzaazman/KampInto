@@ -15,29 +15,19 @@ namespace Classes
             productManager.Add();
             productManager.Update();
 
-        }
-    }
-    class CustomerManager
-    {
-        public void Add()
-        {
-            Console.WriteLine("Customer Added");
-        }
-        public void Update()
-        {
-            Console.WriteLine("Customer Updated");
-        }
-    }
+            Customer customer = new Customer();
+            customer.FirstName = "Hamza";
+            customer.LastName = "Azman";
+            customer.City = "Kdz Ereğli";
+            customer.Id = 1;
 
-    class ProductManager
-    {
-        public void Add()
-        {
-            Console.WriteLine("Product Added");
-        }
-        public void Update()
-        {
-            Console.WriteLine("Product Updated");
+            Customer customer2 = new Customer 
+            {
+                Id = 2, City = "Ankara", FirstName = "Lorem", LastName = "Ipsum"
+            };
+
+            Console.WriteLine(customer2.FirstName);
+
         }
     }
 
