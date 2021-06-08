@@ -16,16 +16,20 @@ namespace Koleksiyonlar
             //Console.WriteLine(isimler[4]);
 
             List<string> isimler2 = new List<string> {"Azman", "Murat","Kerem", "Halil" };
-            Console.WriteLine(isimler2[0]);
-            Console.WriteLine(isimler2[1]);
-            Console.WriteLine(isimler2[2]);
-            Console.WriteLine(isimler2[3]);
+            //Console.WriteLine(isimler2[0]);
+            //Console.WriteLine(isimler2[1]);
+            //Console.WriteLine(isimler2[2]);
+            //Console.WriteLine(isimler2[3]);
 
-            isimler2.Add("Hamza");
+            //isimler2.Add("Hamza");
 
-            Console.WriteLine(isimler2[4]);
-            Console.WriteLine(isimler2[0]);
+            //Console.WriteLine(isimler2[4]);
+            //Console.WriteLine(isimler2[0]);
 
+            foreach (var isim in isimler2)
+            {
+                Console.WriteLine(isim);
+            }
             
 
 
